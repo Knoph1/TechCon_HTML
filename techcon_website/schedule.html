@@ -1,21 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Exercise 1: Variables and Data Types</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Schedule for TechCon 2024</title>
 </head>
 <body>
-  <h1>Exercise 1: Variables and Data Types</h1>
-  <p>Open your browser console to see the output from the JavaScript file.</p>
-  <button onclick="showHint()">Show Hint</button>
-  <div id="hint" style="display:none; margin-top:10px; color:blue;"></div>
+  <!-- Header Section -->
+  <header>
+    <h1>Schedule for TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <script>
-    function showHint() {
-      document.getElementById('hint').style.display = 'block';
-      document.getElementById('hint').innerText = 'Tip: Use console.log() to print variable values and try different data types like string, number, and boolean.';
-    }
-  </script>
-  <!-- Link to the JavaScript file -->
-  <script src="exercise1-variables.js"></script>
+  <!-- Main Section -->
+  <main>
+    <table border="1">
+      <caption>Detailed Schedule of Events for TechCon 2025</caption>
+      <thead>
+        <tr>
+          <th scope="col">Time</th>
+          <th scope="col">Session</th>
+          <th scope="col">Speaker</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>09:00 AM - 10:00 AM</td>
+          <td>Opening Keynote</td>
+          <td>Dr. Jane Techwell</td>
+        </tr>
+        <tr>
+          <td>10:15 AM - 11:00 AM</td>
+          <td>AI in Everyday Life</td>
+          <td>Mr. John Smart</td>
+        </tr>
+        <tr>
+          <td>11:15 AM - 12:00 PM</td>
+          <td>Cybersecurity Today</td>
+          <td>Ms. Fatima Njenga</td>
+        </tr>
+        <tr>
+          <td>01:00 PM - 02:00 PM</td>
+          <td>Tech Startups Panel</td>
+          <td>Multiple Speakers</td>
+        </tr>
+        <tr>
+          <td>02:15 PM - 03:00 PM</td>
+          <td>Future of Web Development</td>
+          <td>Eng. Brian Kimani</td>
+        </tr>
+        <tr>
+          <td>03:15 PM - 04:00 PM</td>
+          <td>Closing Remarks</td>
+          <td>TechCon Team</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 TechCon. All rights reserved.</p>
+  </footer>
 </body>
 </html>
