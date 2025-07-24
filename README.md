@@ -2,7 +2,7 @@
 
 ## 📍 Project Overview
 
-**TechCon_HTML** is a hands-on HTML development project designed to simulate a real-world website for the **TechCon 2024** conference. It challenges novice developers to build a complete, multi-page website using only HTML — focusing on semantic structure, forms, tables, multimedia integration, and accessibility.
+**TechCon_HTML** is a hands-on HTML development project designed to simulate a real-world website for the **TechCon 2024** conference. It challenges novice developers to build a complete, multi-page website using only HTML — focusing on semantic structure, forms, tables, multimedia integration and accessibility.
 
 > 🎯 Duration: **July 14 – July 28, 2025**  
 > 🧠 Level: Novice  
@@ -29,7 +29,7 @@ The project involves creating **five fully functional HTML pages**, each represe
    - Contains a form for users to register for the event.
 
 5. **Contact Page (contact.html)**  
-   - Displays contact details, social links, a map, and a contact form.
+   - Displays contact details, social links, a map and a contact form.
 
 ---
 
@@ -38,12 +38,12 @@ The project involves creating **five fully functional HTML pages**, each represe
 This project reinforces the following core HTML concepts:
 
 - **HTML Structure**: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
-- **Text & Headings**: Use of `<h1>` to `<h6>`, `<p>`, `<strong>`, and `<em>`
+- **Text & Headings**: Use of `<h1>` to `<h6>`, `<p>`, `<strong>` and `<em>`
 - **Links & Navigation**: Internal links via `<a>` tags and structured menus
 - **Tables**: Semantic and accessible `<table>` implementation on the schedule page
 - **Forms**: User input handling via `<form>`, `<input>`, `<label>`, `<textarea>`, `<button>`
-- **Media**: Images (`<img>`), video (`<video>`), and maps (`<iframe>`)
-- **Accessibility & Semantics**: Alt attributes, proper labeling, and scope attributes
+- **Media**: Images (`<img>`), video (`<video>`) and maps (`<iframe>`)
+- **Accessibility & Semantics**: Alt attributes, proper labeling and scope attributes
 
 ---
 
