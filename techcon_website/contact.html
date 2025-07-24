@@ -1,21 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Exercise 1: Variables and Data Types</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - TechCon 2024</title>
+  <style>
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+    }
+  </style>
 </head>
 <body>
-  <h1>Exercise 1: Variables and Data Types</h1>
-  <p>Open your browser console to see the output from the JavaScript file.</p>
-  <button onclick="showHint()">Show Hint</button>
-  <div id="hint" style="display:none; margin-top:10px; color:blue;"></div>
 
-  <script>
-    function showHint() {
-      document.getElementById('hint').style.display = 'block';
-      document.getElementById('hint').innerText = 'Tip: Use console.log() to print variable values and try different data types like string, number, and boolean.';
-    }
-  </script>
-  <!-- Link to the JavaScript file -->
-  <script src="exercise1-variables.js"></script>
+  <!-- Header Section -->
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h2>Get in Touch</h2>
+
+      <!-- Email Address -->
+      <p>Email us at: 
+        <a href="mailto:email@example.com">email@example.com</a>
+      </p>
+
+      <!-- Social Media Links -->
+      <p>Follow us on social media:</p>
+      <ul>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter (X)</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <!-- Google Map -->
+    <section>
+      <h2>Our Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.123456789!2d36.821946!3d-1.292066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10f8c5472c85%3A0x70a57a3d8762d3f2!2sKICC%20-%20Kenyatta%20International%20Convention%20Centre!5e0!3m2!1sen!2ske!4v1711111111111"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <!-- Contact Us Form -->
+    <section>
+      <h2>Contact Us Form</h2>
+      <form action="#" method="post">
+        <!-- Name -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <!-- Submit -->
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved. Copyright.</p>
+  </footer>
+
 </body>
 </html>
