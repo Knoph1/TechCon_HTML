@@ -1,21 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Exercise 1: Variables and Data Types</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register for TechCon 2024</title>
 </head>
 <body>
-  <h1>Exercise 1: Variables and Data Types</h1>
-  <p>Open your browser console to see the output from the JavaScript file.</p>
-  <button onclick="showHint()">Show Hint</button>
-  <div id="hint" style="display:none; margin-top:10px; color:blue;"></div>
 
-  <script>
-    function showHint() {
-      document.getElementById('hint').style.display = 'block';
-      document.getElementById('hint').innerText = 'Tip: Use console.log() to print variable values and try different data types like string, number, and boolean.';
-    }
-  </script>
-  <!-- Link to the JavaScript file -->
-  <script src="exercise1-variables.js"></script>
+  <!-- Header Section -->
+  <header>
+    <h1>Register for TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Attendee Registration Form</legend>
+
+        <!-- Full Name -->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <!-- Email Address -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Confirm Password -->
+        <label for="confirm-password">Confirm Password:</label><br>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+
+        <!-- Terms and Conditions -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the <a href="#">terms and conditions</a>.</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register Now</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
